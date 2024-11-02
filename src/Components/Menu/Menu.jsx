@@ -5,9 +5,9 @@ function Menu(){
         <header>
             <nav>
                 <ul>
-                    <li><Link to={"/"}></Link>Main Page</li>
-                    <li><Link to={"/information"}></Link>Information</li>
-                    <li><Link to={"/calendar"}></Link>Calendar</li>
+                    <li><Link to={"/"}>Main Page</Link></li>
+                    <li><Link to={"/information"}>Information</Link></li>
+                    <li><Link to={"/calendar"}>Calendar</Link></li>
                 </ul>
             </nav>
         </header>    

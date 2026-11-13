@@ -1,2 +1,7 @@
-# formula1
-Implementação de um código para uma aplicação de Formula 1, pretendo utilizá-la para praticar minhas habilidades web.
+O Pit Wall é um dashboard web que simula o trabalho de um engenheiro de estratégia de F1: analisar a corrida de Interlagos (GP de São Paulo 2025) para planejar a próxima corrida através do que foi feito nessa.
+O projeto é uma aplicação React empacotada com Vite, com 4 abas, 20 pilotos e 71 voltas de dados, utilizando os dados dos endpoints da API openf1, contendo posições, estratégias, Safety Car e chuva que são ilustrativos, o projeto é uma demonstração de arquitetura e visualização, não uma análise real da prova, apresentando: 
+- Clima e Pista: temperatura, umidade e vento por volta, gráfico de temperatura contra probabilidade de chuva, mapa SVG do circuito e alertas de engenharia.
+- Pneus e Stints: grid dos 20 pilotos com a estratégia de paradas, curva de degradação e resumo de cada stint.
+- Telemetria: comparação de dois pilotos (velocidade, acelerador, freio, marcha, DRS) e heatmap de setores.
+- Estratégia: simulador de undercut e overcut com sliders, janela de pit e matriz de decisão para Safety Car e VSC.
+O Recharts foi utilizado para a criação de gráficos, como gráficos de linhas e áreas, permitindo representar dados de forma clara e organizada, com eixos e séries definidos por componentes React. O Lucide React também foi empregado para adicionar ícones à interface, utilizando imagens vetoriais em SVG, leves e carregadas conforme a necessidade, contribuindo para uma aparência mais moderna e intuitiva.
